@@ -1,0 +1,40 @@
+﻿@model IEnumerable<dispensery_management_system.Models.DoctorDto>
+
+@{
+    ViewData["Title"] = "Doctors List";
+}
+
+<h2>Doctors List</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Doctor ID</th>
+            <th>Doctor Name</th>
+            <th>Specialization</th>
+            <th>Experience Years</th>
+            <th>Consultation Fee</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var doctor in Model)
+        {
+            <tr>
+                <td>@doctor.DoctorID</td>
+                <td>@doctor.UserID</td> <!-- Assuming UserID is a concatenated name -->
+                <td>@doctor.Specialization</td>
+                <td>@doctor.ExperienceYears</td>
+                <td>@doctor.ConsultationFee.ToString("C")</td> <!-- Format currency -->
+                <td>
+                    <a asp-action="Edit" asp-route-id="@doctor.DoctorID">Edit</a> |
+                    <a asp-action="Delete" asp-route-id="@doctor.DoctorID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

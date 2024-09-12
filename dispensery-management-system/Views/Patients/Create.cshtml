@@ -1,0 +1,53 @@
+﻿@model dispensery_management_system.Models.Patient
+
+@{
+    ViewData["Title"] = "Create Patient";
+}
+
+<h1>Create Patient</h1>
+
+<h4>Patient</h4>
+<hr />
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="PatientID" class="control-label"></label>
+        <input asp-for="PatientID" class="form-control" />
+        <span asp-validation-for="PatientID" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="UserID" class="control-label"></label>
+        <input asp-for="UserID" class="form-control"/>
+        <span asp-validation-for="UserID" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DateOfBirth" class="control-label"></label>
+        <input asp-for="DateOfBirth" class="form-control" type="date" />
+        <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Gender" class="control-label"></label>
+        <input asp-for="Gender" class="form-control" />
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="BloodGroup" class="control-label"></label>
+        <input asp-for="BloodGroup" class="form-control" />
+        <span asp-validation-for="BloodGroup" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="AllergyInfo" class="control-label"></label>
+        <textarea asp-for="AllergyInfo" class="form-control"></textarea>
+        <span asp-validation-for="AllergyInfo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MedicalHistory" class="control-label"></label>
+        <textarea asp-for="MedicalHistory" class="form-control"></textarea>
+        <span asp-validation-for="MedicalHistory" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

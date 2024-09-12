@@ -1,0 +1,43 @@
+﻿@model IEnumerable<dispensery_management_system.Models.UserProfile>
+
+@{
+    ViewData["Title"] = "User Profiles";
+}
+
+<h1>User Profiles</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>User Type</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var userProfile in Model)
+        {
+            <tr>
+                <td>@userProfile.FirstName</td>
+                <td>@userProfile.LastName</td>
+                <td>@userProfile.Email</td>
+                <td>@userProfile.Phone</td>
+                <td>@userProfile.UserType</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = userProfile.UserID })" class="btn btn-warning">Edit</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("Delete", new { id = userProfile.UserID })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

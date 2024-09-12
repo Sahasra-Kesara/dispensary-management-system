@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\services\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\models\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\models\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\models\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\views\\appointments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|d:\\stacknet projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6F76A8F5-85BD-41BF-8D29-81B7412870E5}|dispensery-management-system\\dispensery-management-system.csproj|solutionrelative:dispensery-management-system\\views\\appointments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Services\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Services\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Services\\ApplicationDbContext.cs",
+              "RelativeToolTip": "dispensery-management-system\\Services\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T04:59:01.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "dispensery-management-system\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCIAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T04:58:06.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Models\\Appointment.cs",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Models\\Appointment.cs",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Models\\Appointment.cs",
+              "RelativeToolTip": "dispensery-management-system\\Models\\Appointment.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T04:53:11.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Models\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Models\\AppointmentDto.cs",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Models\\AppointmentDto.cs",
+              "RelativeToolTip": "dispensery-management-system\\Models\\AppointmentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T04:53:12.482Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Views\\Appointments\\Index.cshtml",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Views\\Appointments\\Index.cshtml",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Views\\Appointments\\Index.cshtml",
+              "RelativeToolTip": "dispensery-management-system\\Views\\Appointments\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T04:56:33.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Views\\Appointments\\Create.cshtml",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Views\\Appointments\\Create.cshtml",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Views\\Appointments\\Create.cshtml",
+              "RelativeToolTip": "dispensery-management-system\\Views\\Appointments\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-11T04:57:31.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "dispensery-management-system\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\StackNet Projects\\dispensery-management-system\\dispensery-management-system\\dispensery-management-system\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "dispensery-management-system\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA3wDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T04:55:23.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

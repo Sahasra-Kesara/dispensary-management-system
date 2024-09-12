@@ -1,0 +1,33 @@
+﻿@model dispensery_management_system.Models.DoctorDto
+
+@{
+    ViewData["Title"] = "Edit Doctor";
+}
+
+<h2>Edit Doctor</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="DoctorID" />
+
+    <div class="form-group">
+        <label for="UserID">User Profile (User ID)</label>
+        <input type="text" asp-for="UserID" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="Specialization">Specialization</label>
+        <input type="text" asp-for="Specialization" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="ExperienceYears">Experience Years</label>
+        <input type="number" asp-for="ExperienceYears" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label for="ConsultationFee">Consultation Fee</label>
+        <input type="number" asp-for="ConsultationFee" class="form-control" step="0.01" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>

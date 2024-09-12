@@ -1,0 +1,47 @@
+﻿@model IEnumerable<dispensery_management_system.Models.Patient>
+
+@{
+    ViewData["Title"] = "Patients";
+}
+
+<h1>Patients</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>PatientID</th>
+            <th>UserID</th>
+            <th>DateOfBirth</th>
+            <th>Gender</th>
+            <th>BloodGroup</th>
+            <th>AllergyInfo</th>
+            <th>MedicalHistory</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.PatientID</td>
+                <td>@item.UserID</td>
+                <td>@item.DateOfBirth?.ToShortDateString()</td>
+                <td>@item.Gender</td>
+                <td>@item.BloodGroup</td>
+                <td>@item.AllergyInfo</td>
+                <td>@item.MedicalHistory</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PatientID" class="btn btn-warning">Edit</a>
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.PatientID" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
